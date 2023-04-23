@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.for_image{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(180deg, #7271FF 0%, #3433FF 100%)
+}
+.for_ellips2{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    /* border: 5px solid red; */
+
+}
+.for_ellips1{
+    display: flex;
+    /* border: 5px solid red; */
+    width: 100%;
+    height: 45%;
+}
+.ellipse1{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid red; */
+
+}
+.for_frame{
+    display: flex;
+    align-self: flex-end;
+    align-items: end;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    margin-top: -10%;
+    margin-bottom: -25%;
+    width: 80%;
+    height: 40%;
+    /* border: 5px solid rgb(255, 230, 0); */
+}
+.chart_img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 20px 10px  #50a3c4;
+    border-radius: 8px;
+}
+.for_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+    align-self: center;
+    justify-content: start;
+    margin-top: -15%;
+    margin-left: -90%;
+    width: 40%;
+    height: 40%;
+}
+.logo{
+    font-size: 35px;
+    color: #fff1c1;
+    text-shadow: 0px 1px 5px rgb(84, 139, 217);
+}
+.name{
+    font-size: 28px;
+    color: #fff1c1;
+    text-shadow: 0px 1px 5px rgb(84, 139, 217);
+}
+.for_registration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:55%;
+    height: 100%;
+    background: #f7f7f7;
+    /* border: 5px solid red; */
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    /* border: 5px solid red; */
+}
+.for_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+    width: 100%;
+    height: 15%;
+    /* border: 5px solid red; */
+    color: #585858;
+}
+.head{
+    display: flex;
+    font-size: 27px;
+    text-shadow: 0px 1px 1px rgb(119, 119, 119);
+}
+.reg{
+    display: flex;
+    font-size: 17px;
+}
+.for_userName{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    margin-top: 15px;
+    gap: 10px;
+    /* border: 5px solid red; */
+}
+.fullName{
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid rgb(131, 131, 131);
+    font-size: 17px;
+    width: 100%;
+    height: 70%;
+    background: #f7f7f7;
+}
+.for_email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    margin-top: 15px;
+    gap: 10px;
+    /* border: 5px solid red; */
+}
+.email{
+    display: flex;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid rgb(131, 131, 131);
+    width: 100%;
+    height: 70%;
+    background: #f7f7f7;
+
+}
+.for_password{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    margin-top: 15px;
+    gap: 10px;
+    /* border: 5px solid red; */
+}
+.password{
+    display: flex;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid rgb(131, 131, 131);
+    width: 100%;
+    height: 70%;
+    background: #f7f7f7;
+}
+.for_log_up_button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    margin-top: 15px;
+    /* border: 5px solid red; */
+}
+.create_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 60%;
+    font-size: 17px;
+    cursor: pointer;
+    background: #4443FF;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 9px 9px 10px rgba(114, 113, 255, 0.25)
+}
+.for_log_in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid red; */
+}
+.log_in_link{
+    display: flex;
+    font-size: 15px;
+    color: #585858;
+}
+.log_in{
+    display: flex;
+    color: #2828f1;
+}
+.label{
+    display: flex;
+    margin-left: 1px;
+    font-size: 16px;
+    color: #585858;
+}
+.red_border{
+    border: 2px solid red;
+}

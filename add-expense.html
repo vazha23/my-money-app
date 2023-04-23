@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>add expense</title>
+    <link rel="stylesheet" href="add-expense.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main class="add_expense_div">
+      <nav class="navigation">
+        <div class="head_container">
+          <h1 class="head">My Wallet</h1>
+        </div>
+        <div class="user_container">
+          <i class="fas fa-user" id="user_icon"></i>
+        </div>
+        <div class="user_info_container" id="user_info_container">
+          <div class="MW_container">
+            <h1 class="MW_head">MW</h1>
+          </div>
+          <div class="user_name_container"></div>
+          <div class="user_email_containet"></div>
+          <div class="darkOrlight_mode_container">
+            <button type="submit" class="mode_button">Mode</button>
+          </div>
+          <div class="show_expense_container">
+            <button type="submit" class="my_expense_button">My Expenses</button>
+          </div>
+          <div class="log_out_container">
+            <button type="submit" class="log_out_button">Log Out</button>
+          </div>
+        </div>
+      </nav>
+      <div class="expense_card">
+        <div class="incORexp_container">
+          <select name="cards" id="cards">
+            <option value="income" id="income">income</option>
+            <option value="expense" id="expense">expense</option>
+          </select>
+          <input type="date" class="date" />
+        </div>
+        <div class="category_cont">
+          <label for="category">Category</label>
+          <select name="category" id="category">
+            <option value="Invoice">Invoice</option>
+            <option value="Salary">Salary</option>
+            <option value="Gym">Gym</option>
+            <option value="Health">Health</option>
+            <option value="Family">Family</option>
+            <option value="Travel">Travel</option>
+            <option value="Food">Food</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="money_cont">
+          <label for="money">Money</label>
+          <input type="number" class="Money" />
+        </div>
+        <div class="add_cont">
+          <button type="submit" class="submit_batton">Add</button>
+          <button type="submit" class="my_expenses">My expenses</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="add-expense.js"></script>
+  </body>
+</html>
